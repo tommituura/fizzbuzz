@@ -22,3 +22,11 @@ It seems this is something that can hit you in an interview,
 even though it really is dead-simple to anyone who knows at least 
 little bit of programming. If you can't solve this problem, you 
 really do NOT know how to program...
+
+## License
+
+Honestly, fizzbuzz is so trivial these should not be 
+copyrightable work. Yet, it seems everyone needs to be anal
+about these things, so it's MIT license here. If you happen
+to solve the problem in exact same verbatim way by yourself, 
+I will never sue you for not complying with this license.

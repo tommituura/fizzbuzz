@@ -2,15 +2,9 @@
 
 fizzbuzzes = Range.new(1,100).map do |v|
     r = ""
-    if v % 3 == 0
-        r += "Fizz"
-    end
-    if v % 5 == 0
-        r += "Buzz"
-    end
-    if v % 3 != 0 and v % 5 != 0
-        r = v
-    end
+    r += "Fizz" if v % 3 == 0
+    r += "Buzz" if v % 5 == 0
+    r = v if r.length == 0
     r
 end
 
